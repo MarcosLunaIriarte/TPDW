@@ -132,3 +132,33 @@ footer {
       color: white;
       border-left-color: white; 
     }
+
+    /*sidebar*/
+    /*calendario*/
+ .calendario-cuadro table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.calendario-cuadro th,
+.calendario-cuadro td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+
+.calendario-cuadro th {
+  background-color: rgb(247, 29, 0);
+  color: white;
+}
+
+.calendario-cuadro tr {
+  background-color: rgb(58, 58, 58);
+}
+.calendario-cuadro tr:hover {
+  background-color: rgb(114, 5, 5);
+}
+/*fin calendario*/
