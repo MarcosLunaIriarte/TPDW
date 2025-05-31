@@ -134,7 +134,51 @@ footer {
     }
 
     /*sidebar*/
-    /*calendario*/
+/*pistas*/
+.pistas {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 150px;
+  margin: 50px 1px;
+}
+
+.pistas summary {
+  list-style: none;
+}
+
+.pistas2 {
+  width: 300px;      
+  height: auto;      
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.pistas2:hover {
+  transform: scale(1.05);
+  
+}
+
+.pistas2 img {
+  width: 100%;      
+  height: 250px;
+  
+}
+
+.info-pista {
+  padding: 10px 15px 15px;
+  text-align: left;
+  background-color: black;
+}
+
+.info-pista p {
+  color: white;
+  font-size: 15px;
+}
+/*fin pistas*/
+
+  /*calendario*/
  .calendario-cuadro table {
   width: 100%;
   border-collapse: collapse;
