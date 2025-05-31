@@ -161,4 +161,8 @@ footer {
 .calendario-cuadro tr:hover {
   background-color: rgb(114, 5, 5);
 }
+
+.calendario-cuadro ol {
+  text-align: left;
+}
 /*fin calendario*/
